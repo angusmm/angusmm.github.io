@@ -233,19 +233,19 @@ var config_data = `
     { "name": "Notes for playing against",
       "code": "co_against",
       "type": "text",
-      "size": 50,
+      "size": 15,
       "maxSize": 500
     },
     { "name": "Notes for playing with",
       "code": "co_with",
       "type": "text",
-      "size": 50,
+      "size": 15,
       "maxSize": 500
     },
     { "name": "Other notes",
       "code": "co_other",
       "type": "text",
-      "size": 50,
+      "size": 15,
       "maxSize": 500
     }
   ]
