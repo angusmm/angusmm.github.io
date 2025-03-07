@@ -230,10 +230,22 @@ var config_data = `
       "code": "all",
       "type": "bool"
     },
-    { "name": "Comments",
-      "code": "co",
+    { "name": "Notes for playing against",
+      "code": "co_against",
       "type": "text",
-      "size": 15,
+      "size": 50,
+      "maxSize": 500
+    },
+    { "name": "Notes for playing with",
+      "code": "co_with",
+      "type": "text",
+      "size": 50,
+      "maxSize": 500
+    },
+    { "name": "Other notes",
+      "code": "co_other",
+      "type": "text",
+      "size": 50,
       "maxSize": 500
     }
   ]
